@@ -50,5 +50,6 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', { useNewUrlParser: true
         console.log('Unable to fetch Todos', err);
     });
 
+    //testing
     //client.close();
 });
